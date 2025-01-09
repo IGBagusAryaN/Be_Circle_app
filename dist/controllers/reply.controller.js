@@ -67,7 +67,7 @@ async function createReply(req, res) {
                 threadId,
                 content: content.trim(),
                 authorId,
-                image: file
+                image: file,
             },
             include: {
                 author: {
